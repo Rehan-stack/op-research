@@ -23,14 +23,14 @@ The package can be found on pypi hence you can install it using pip
 pip install op_research
 ### Usage
 
-'''python
+```
 >>> from op_research import Simplex
 >>> objective = ('maximize', '7x_1 + 4x_2')
 >>> constraints = ['5x_1 + 2x_2 = 7', '1x_1 + 8x_2 >= 9', '3x_1 + 4x_2 <= 8']
 >>> Lp_system = Simplex(num_vars=2, constraints=constraints, objective_function=objective)
 >>> print(Lp_system.solution)
 {'x_1': Fraction(6, 7), 'x_2': Fraction(19, 14)}
-'''
+```
 
 
 ## Contribution
