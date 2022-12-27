@@ -20,7 +20,9 @@ Simplex solution solver
 The package can be found on pypi hence you can install it using pip
 
 ## Installation
+```
 pip install op_research
+```
 ### Usage
 
 ```
